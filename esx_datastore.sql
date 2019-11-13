@@ -3,6 +3,8 @@ USE `essentialmode`;
 CREATE TABLE `datastore` (
 	`name` VARCHAR(60) NOT NULL,
 	`label` VARCHAR(100) NOT NULL,
+	`label_sc` VARCHAR(100) NOT NULL,
+	`label_tc` VARCHAR(100) NOT NULL,
 	`shared` INT(11) NOT NULL,
 
 	PRIMARY KEY (`name`)
